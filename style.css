@@ -17,7 +17,7 @@ body{
 }
 .container{
     width: 30%;
-    height: 60vh;
+    height: 70vh;
     background-color:#23235b ;
     display: flex;
   
@@ -96,24 +96,26 @@ position: relative;
 }
 @media (max-width: 860px) {
     .input label {
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
     .pass input{
-        width: 150px;
+        width:200px;
     }
     .container{
         height: 80vh;
+        width: 60%;
     }
 }
 @media (max-width: 660px) {
     .input label {
-        font-size: 0.5rem;
+        font-size:1rem;
     }
     .pass input{
-        width: 100px;
+        width: 200px;
     }
     .container button{
         font-size: 0.7rem;
+        width: 60%;
     }
     h1{
         font-size: 16px;
@@ -123,6 +125,27 @@ position: relative;
     position: absolute;
     bottom: 0;
     left: 2%;
+
+}
+@media (max-width: 530px) {
+    .input label {
+        font-size:0.6rem;
+    }
+    .pass input{
+        width: 150px;
+    }
+    .container button{
+        font-size: 0.7rem;
+        width: 100%;
+    }
+    h1{
+        font-size: 13px;
+    }
+}
+.logo{
+    position: absolute;
+   top: 2%;
+    left: 10%;
 
 }
 
