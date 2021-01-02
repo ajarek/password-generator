@@ -84,22 +84,15 @@ position: relative;
     padding: 5px 10px;
 }
 @media (max-width: 1250px) {
-    .input label {
-        font-size: 1rem;
-    }
-    .pass input{
-        width: 200px;
-    }
+    
     .container{
         height: 80vh;
+        width: 40%;
     }
 }
-@media (max-width: 860px) {
-    .input label {
-        font-size: 1rem;
-    }
-    .pass input{
-        width:200px;
+@media (max-width: 920px) {
+    h1{
+        font-size:1.8rem;
     }
     .container{
         height: 80vh;
@@ -107,47 +100,47 @@ position: relative;
     }
 }
 @media (max-width: 660px) {
-    .input label {
-        font-size:1rem;
-    }
-    .pass input{
-        width: 200px;
-    }
-    .container button{
-        font-size: 0.7rem;
-        width: 60%;
-    }
+   
+    
     h1{
-        font-size: 16px;
+        font-size: 1.5rem;
+    }
+    .container{
+        height: 80vh;
+        width: 80%;
     }
 }
-.logo{
-    position: absolute;
-    bottom: 0;
-    left: 2%;
 
-}
 @media (max-width: 530px) {
-    .input label {
-        font-size:0.6rem;
+  
+    .container{
+        height: 80vh;
+        width: 90%;
     }
-    .pass input{
-        width: 150px;
-    }
-    .container button{
-        font-size: 0.7rem;
+}
+@media (max-width: 360px) {
+  
+    .container{
+        height: 80vh;
         width: 100%;
     }
+   .input label{
+        font-size: 1rem;
+    }
     h1{
-        font-size: 13px;
+        font-size: 1.3rem;
     }
 }
 .logo{
     position: absolute;
-   top: 2%;
+   top: 1%;
     left: 10%;
 
 }
+
+      
+
+
 
 
 
